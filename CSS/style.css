@@ -2,13 +2,13 @@ body{
     background-image: url("../img/background_image.png");
     object-fit: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
+    background-position: center;
     padding:0;
     margin:0;
 }
 
 .fondo{
-    /*border: solid #65052d;*/
     border: solid #58167d;
     background-color: rgba(0,0,0, 0.6);
 }
@@ -23,6 +23,7 @@ h2.card-title{
 .nav-link {
     color: #fff;
     border-bottom: 0.25rem solid rgba(255, 255, 255, 0.0);
+    font-size: 1.5em;
     transition: border-bottom 0.5s;
  }
           
@@ -97,13 +98,14 @@ h2.card-title{
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
-    border: 1px solid #fff;
+    border: 1px solid #58167d;
     margin: 50px 0 0 0;
     background-color: transparent;
+    text-shadow: 2px 2px 1px #58167d;
   }
   
   .hovereffect a.info:hover {
-    box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #58167d;
   }
   
   .hovereffect a.info, .hovereffect h2 {
@@ -173,7 +175,7 @@ h2.card-title{
     to {transform:scale(1)}
   }
   
-  .close, .close2, .close3 {
+  .close, .close2, .close3, .close4, .close5, .close6, .close7,.close8,.close9{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -183,12 +185,15 @@ h2.card-title{
     transition: 0.3s;
   }
   
-  .close:hover,
-  .close:focus, 
-  .close2:hover,
-  .close2:focus, 
-  .close3:focus, 
-  .close3:hover{
+  .close:hover, .close:focus, 
+  .close2:hover, .close2:focus, 
+  .close3:focus, .close3:hover,
+  .close4:hover, .close4:focus,
+  .close5:hover, .close5:focus,
+  .close6:hover, .close6:focus,
+  .close7:hover, .close7:focus,
+  .close8:hover, .close8:focus,
+  .close9:hover, .close9:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
