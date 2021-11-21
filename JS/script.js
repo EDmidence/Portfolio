@@ -8,6 +8,7 @@ var modal6 = document.getElementById("myModal6");
 var modal7 = document.getElementById("myModal7");
 var modal8 = document.getElementById("myModal8");
 var modal9 = document.getElementById("myModal9");
+var modal10 = document.getElementById("myModal10");
 
 var img = document.getElementById("info");
 var img2 = document.getElementById("info2");
@@ -18,7 +19,7 @@ var img6 = document.getElementById("info6");
 var img7 = document.getElementById("info7");
 var img8 = document.getElementById("info8");
 var img9 = document.getElementById("info9");
-
+var img10 = document.getElementById("info10");
 
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -77,6 +78,12 @@ modalImg.src = this.src;
 captionText.innerHTML = this.alt;
 }
 
+img10.onclick = function(){
+  modal10.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
 
 var span = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close2")[0];
@@ -87,6 +94,7 @@ var span6 = document.getElementsByClassName("close6")[0];
 var span7 = document.getElementsByClassName("close7")[0];
 var span8 = document.getElementsByClassName("close8")[0];
 var span9 = document.getElementsByClassName("close9")[0];
+var span10 = document.getElementsByClassName("close10")[0];
 
 span.onclick = function() {
   modal.style.display = "none";
@@ -122,4 +130,8 @@ span8.onclick = function(){
 
 span9.onclick = function(){
   modal9.style.display = "none";
+}
+
+span10.onclick = function(){
+  modal10.style.display = "none";
 }

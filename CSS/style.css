@@ -176,7 +176,7 @@ h2.card-title{
     to {transform:scale(1)}
   }
   
-  .close, .close2, .close3, .close4, .close5, .close6, .close7,.close8,.close9{
+  .close, .close2, .close3, .close4, .close5, .close6, .close7,.close8,.close9,.close10{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -194,7 +194,8 @@ h2.card-title{
   .close6:hover, .close6:focus,
   .close7:hover, .close7:focus,
   .close8:hover, .close8:focus,
-  .close9:hover, .close9:focus{
+  .close9:hover, .close9:focus,
+  .close10:hover, .close10:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
