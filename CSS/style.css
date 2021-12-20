@@ -8,6 +8,10 @@ body{
     margin:0;
 }
 
+footer{
+  font-size: x-small;
+}
+
 .fondo{
     border: solid #58167d;
     background-color: rgba(0,0,0, 0.6);
